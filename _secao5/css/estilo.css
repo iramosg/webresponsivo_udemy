@@ -6,6 +6,38 @@
 	background-position: top;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+figure {
+	width: 100%;
+	margin: 0;
+}
+
+figcaption {
+	font: 120% sans-serif;
+	text-align: center;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 400px){
+	figure {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 800px){
+	figure {
+		width: 50%;
+	}
+}
+
 @media screen and (min-width: 20em){
 	.artdirection{
 		border: 5px solid blue;

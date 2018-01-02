@@ -16,7 +16,10 @@
 		<![endif] -->
 	</head>
 	<body>
-		<img src="img/large.png" alt="Gato"
-		srcset="img/small.png 330w 220h 2x, img/medium.png 465w, img/large.png 650w">
+		<picture>
+			<source media="(min-width:1000px)" srcset="img/large.png">
+			<source media="(min-width:600px)" src="img/medium.png">
+			<img src="img/small.png" alt="Gato">
+		</picture>
 	</body>
 </html>
